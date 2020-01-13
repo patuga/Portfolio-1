@@ -165,7 +165,6 @@ ul li:hover a {
 }
 /* More info */
 footer {
-	background-color: #FFFFFF;
 	padding-bottom: 35px;
 }
 .footer_column {
@@ -179,14 +178,21 @@ footer .footer_column h3 {
 	text-align: center;
 }
 footer .footer_column p {
-	color: #717070;
-	background-color: #FFFFFF;
+	color: #FFFFFF;
 }
-.cards {
+.cards{
 	width: 100%;
 	height: auto;
 	max-width: 400px;
 	max-height: 200px;
+	transition: all 0.3s linear;
+}
+.cards:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+	
 }
 footer .footer_column p {
 	padding-left: 30px;
@@ -226,7 +232,6 @@ footer .footer_column p {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #717070;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
